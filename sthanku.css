@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 150px;
+    height: 60px;
+}
+
+.home{
+    margin-left: 20px;
+}
+
+.thanks{
+    width: 30%;
+    margin: 12rem;
+    margin-left: 28rem;
+    box-sizing: border-box;
+    /* float: left; */
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+    background-color: rgb(83, 83, 83);
+}
+
+.thanks:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+@media screen and (max-width: 600px) {
+    .thanks {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 200px;
+    }
+  }
+@media screen and (max-width: 1000px) {
+    .thanks {
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 200px;
+    }
+  }
+
+.thanks h1{
+    color: white;
+}
+
+.thanks h3{
+    color: white;
+}
+
+.whatsapp_float{
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 38%;
+    padding: 10px;
+}
+
+.down:hover{
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .down {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+  }

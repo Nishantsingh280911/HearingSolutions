@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 480px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+.img {
+    width: 150px;
+    height: 60px;
+}
+
+.home {
+    margin-left: 20px;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 38%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 380px) {
+    .down {
+        /* display: none; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 50px;
+        background-color: orangered;
+        color: white;
+        border: 2px solid orangered;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 15px;
+        margin-left: 17%;
+        padding: 10px;
+    }
+}
+
+.thanks {
+    width: 30%;
+    margin: 12rem;
+    margin-left: 28rem;
+    box-sizing: border-box;
+    /* float: left; */
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: .4s;
+    background: #f2f2f2;
+    background-color: rgb(83, 83, 83);
+}
+
+@media screen and (max-width: 600px) {
+    .thanks {
+    width: 94%;
+    margin: 12rem;
+    margin-left: 10px;
+    box-sizing: border-box;
+    /* float: left; */
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    transition: .4s;
+    background: #f2f2f2;
+    background-color: rgb(83, 83, 83);
+    }
+}
+
+.thanks:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+        0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+.thanks h1 {
+    color: white;
+}
+
+.thanks h3 {
+    color: white;
+}
+
+.whatsapp_float {
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+}

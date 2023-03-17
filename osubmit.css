@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#register{
+    /* float: right;
+    /* display: inherit; */
+     /* width: 10rem; */
+    /* height: 10rem; */ 
+    /* margin-right:15rem;  */
+}
+.content{
+     /* background-color: yellow ; */
+     width: 50%;
+     /* margin-top: 15rem; */
+     /* float: right; */
+     margin-left: 25%;
+    }
+    
+.content2{
+    /* background-color: yellow ; */
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content3{
+    margin-left: 25%;
+    
+}
+
+.content4{
+    margin-left: 25%;
+    
+
+}
+
+.head0{
+    text-align: center;
+    margin: 12px 0;
+    padding: 12px;
+}
+
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    margin: 20px 0;
+}
+
+.formimg{
+    width: 27rem;
+    height: 15rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    /* width: 10px; */
+    padding: 12px;
+}
+
+.img{
+    width: 150px;
+    height: 60px;
+}
+
+.home{
+    margin-left: 20px;
+}
+
+.whatsapp_float{
+    position: fixed;
+    bottom: 4rem;
+    right: 2rem;
+}
+
+.whatsapp_float_btn{
+    border-radius: 5px;
+}

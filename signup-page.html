@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>SignUp</title>
+    <link rel="icon" href="asset/logo hearing.png" type="image/x-icon">
+     <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M7TN3JJ');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="img" src="/asset/logo hearing.png" alt="">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active home" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link home" href="index.html">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link home" href="index.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link disabled">Disabled</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="whatsapp_float">
+        <a class="whatsapp_float_btn" href="https://wa.me/919140110497" target="_blank"><img src="asset/whatsapp.png" width="50rem"></a>
+        </div>
+      
+      <h2 class="head0" style="color: rgb(87, 87, 255);">
+      Book an appointment <strike> @999</strike> ₹0</h2>
+      <h4 class="head0 ">Speak with an skilled audiologist to better understand your <br> hearing problems and the requirements.</h4>
+      <div class="head1">
+          <img class="formimg" src="/asset/audiologist-new-768x454.webp" alt="">
+      </div>
+        <form target="_blank" action="https://formsubmit.co/hearingsolutionsofficial@gmail.com" method="POST">
+        <div class="mb-3 content">
+          <label for="name" class="form-label">Enter your name</label> 
+          <input type="name" class="form-control" id="name" name="name" aria-describedby="name" required>
+          <input type="hidden" id="gclid_field" name="gclid_field" value="">
+
+          <div id="emailHelp" class="form-text">We will never share your information with anyone else.</div>
+        </div>
+        <div class="mb-3 content2">
+          <label for="number" class="form-label">Phone Number</label>
+          <input type="number" class="form-control" id="number" name="Phone" required>
+        </div>
+        <input type="hidden" name="_next" value="https://hearingsolutions.co.in/thanku.html">
+                <input type="hidden" name="_captcha" value="false">
+        <input class="btn btn-primary content4" type="submit" value="Book an appointment!!" >
+      </form>
+
+      <br><br>
+    <div>
+        <footer class="footer">
+            Copyright &copy; Hearing Solutions.co.in | All rights reserved
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+    <script>
+function getParam(p) {
+var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function getExpiryRecord(value) {
+var expiryPeriod = 90 * 24 * 60 * 60 * 1000; // 90 day expiry in milliseconds
+
+var expiryDate = new Date().getTime() + expiryPeriod;
+return {
+value: value,
+expiryDate: expiryDate
+};
+}
+</script>
+</body>
+</html>
